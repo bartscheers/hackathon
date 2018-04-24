@@ -30,6 +30,8 @@ Create the UDFs
 
 - See it in action, ``runhealpyudf.sh`` that executes the example query (`sql/examplehealpix.sql`) using the healpy functionality.
 
+- The python script ``plotskycov.py`` creates a sky-coverage image of the sample of sources
+
 .. _get it from here: https://www.monetdb.org/Downloads/ReleaseNotes
 .. _here: https://homepages.cwi.nl/~bscheers/hackathon/hackathon_dump.csv
 
