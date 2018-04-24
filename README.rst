@@ -17,23 +17,18 @@ Install & run
 
 - Start the daemon (``monetdbd``)
 
-- Create and start the database instance (``createstartdb.sh``). The
-database instance is named hackadb. Note that we set ``embedpy=true``.
+- Create and start the database instance (``createstartdb.sh``). The database instance is named hackadb. Note that we set ``embedpy=true``.
 
-- Create the ``runcat`` table into which the data from the csv
-file will be loaded, and actually load the data (``load.sh``).
+- Create the ``runcat`` table into which the data from the csv file will be loaded, and actually load the data (``load.sh``).
 
 Now all data should be loaded
 
 Create the UDFs
 ---------------
 
-- Run ``createudfs.sh`` to create the sql/python udfs. One calculates the chi squared
-probability and the other renders the healpix number given the map resolution
-that contains the point position on the sphere.
+- Run ``createudfs.sh`` to create the sql/python udfs. One calculates the chi squared probability and the other renders the healpix number given the map resolution that contains the point position on the sphere.
 
-- See it in action, ``runhealpyudf.sh`` that executes the example query (`sql/examplehealpix.sql`) using the 
-healpy functionality.
+- See it in action, ``runhealpyudf.sh`` that executes the example query (`sql/examplehealpix.sql`) using the healpy functionality.
 
 .. _get it from here: https://www.monetdb.org/Downloads/ReleaseNotes
 .. _here: https://homepages.cwi.nl/~bscheers/hackathon/hackathon_dump.csv
