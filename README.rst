@@ -6,16 +6,16 @@ Statistical querying of astronomical databases
 
 We are working on a dataset of 2M (unique) sources from the 
 IPHAS survey.
-The csv file is available at `here`_.
+The csv file is available from `here`_.
 
 
 
 Install & run
 -------------
 
-- Install the MonetDB database (`get it from here`_)
+- DIY: Install the MonetDB database (`get it from here`_)
 
-- Start the daemon (``monetdbd``)
+- DIY: Start the daemon (``monetdbd``)
 
 - Create and start the database instance (``createstartdb.sh``). The database instance is named hackadb. Note that we set ``embedpy=true``.
 

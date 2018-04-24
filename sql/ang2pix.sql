@@ -1,5 +1,5 @@
 CREATE OR REPLACE FUNCTION ang2pix(nside INTEGER, theta DOUBLE, phi DOUBLE) 
-RETURNS INT 
+RETURNS BIGINT
 LANGUAGE PYTHON {
     
     import healpy 
